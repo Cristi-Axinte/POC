@@ -5,16 +5,10 @@ D:\DevelopmentProjects\POCs\POCs\bin\Debug\net8.0\POCs.deps.json
 D:\DevelopmentProjects\POCs\POCs\bin\Debug\net8.0\POCs.runtimeconfig.json
 D:\DevelopmentProjects\POCs\POCs\bin\Debug\net8.0\POCs.dll
 D:\DevelopmentProjects\POCs\POCs\bin\Debug\net8.0\POCs.pdb
-D:\DevelopmentProjects\POCs\POCs\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\DevelopmentProjects\POCs\POCs\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\DevelopmentProjects\POCs\POCs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\DevelopmentProjects\POCs\POCs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\POCs.csproj.AssemblyReference.cache
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\POCs.GeneratedMSBuildEditorConfig.editorconfig
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\POCs.AssemblyInfoInputs.cache
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\POCs.AssemblyInfo.cs
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\POCs.csproj.CoreCompileInputs.cache
-D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\POCs.MvcApplicationPartsAssemblyInfo.cs
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\POCs.MvcApplicationPartsAssemblyInfo.cache
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\POCs.sourcelink.json
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\staticwebassets.build.json
@@ -25,7 +19,6 @@ D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\staticwebassets\msbuild.buildM
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.POCs.props
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\staticwebassets.pack.json
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\scopedcss\bundle\POCs.styles.css
-D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\POCs.csproj.Up2Date
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\POCs.dll
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\refint\POCs.dll
 D:\DevelopmentProjects\POCs\POCs\obj\Debug\net8.0\POCs.pdb
