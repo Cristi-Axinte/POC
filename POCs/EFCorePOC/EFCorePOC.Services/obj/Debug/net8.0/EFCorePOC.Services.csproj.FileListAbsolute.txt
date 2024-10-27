@@ -1,0 +1,16 @@
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\bin\Debug\net8.0\EFCorePOC.Services.deps.json
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\bin\Debug\net8.0\EFCorePOC.Services.dll
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\bin\Debug\net8.0\EFCorePOC.Services.pdb
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\bin\Debug\net8.0\EFCorePOC.Common.dll
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\bin\Debug\net8.0\EFCorePOC.Common.pdb
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\obj\Debug\net8.0\EFCorePOC.Services.csproj.AssemblyReference.cache
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\obj\Debug\net8.0\EFCorePOC.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\obj\Debug\net8.0\EFCorePOC.Services.AssemblyInfoInputs.cache
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\obj\Debug\net8.0\EFCorePOC.Services.AssemblyInfo.cs
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\obj\Debug\net8.0\EFCorePOC.Services.csproj.CoreCompileInputs.cache
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\obj\Debug\net8.0\EFCorePOC.Services.sourcelink.json
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\obj\Debug\net8.0\EFCorePO.547F73CF.Up2Date
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\obj\Debug\net8.0\EFCorePOC.Services.dll
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\obj\Debug\net8.0\refint\EFCorePOC.Services.dll
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\obj\Debug\net8.0\EFCorePOC.Services.pdb
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Services\obj\Debug\net8.0\ref\EFCorePOC.Services.dll
