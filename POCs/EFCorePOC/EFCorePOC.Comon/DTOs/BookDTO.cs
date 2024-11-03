@@ -18,6 +18,6 @@ namespace EFCorePOC.Common.DTOs
 
         public string AuthorName { get; set; }
 
-        public string CategoryName { get; set; }
+        public ICollection<string> CategoryNames { get; set; }
     }
 }

@@ -4,9 +4,12 @@ using System.Runtime.InteropServices.Marshalling;
 
 namespace EFCorePOC.Data
 {
+    //How this db will work
+    //Basically, this will be an application, that will contain data from multiple websites, about what books are available so the user will be able to see 
+    //where he can find a specific book.
     public class BookStoreDbContext : DbContext
     {
-        public BookStoreDbContext()
+        public BookStoreDbContext(DbContextOptions<BookStoreDbContext> options) : base(options)
         {
         }
 

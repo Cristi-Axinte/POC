@@ -10,4 +10,16 @@
     <ProjectReference Include="..\EFCorePOC.Comon\EFCorePOC.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Categories\" />
+    <Folder Include="Authors\" />
+    <Folder Include="BookCategories\" />
+    <Folder Include="Publishers\" />
+    <Folder Include="Websites\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,8 @@
+D:\DevelopmentProjects\POCs\LoggingPOC\obj\Debug\net8.0\LoggingPOC.csproj.AssemblyReference.cache
+D:\DevelopmentProjects\POCs\LoggingPOC\obj\Debug\net8.0\LoggingPOC.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevelopmentProjects\POCs\LoggingPOC\obj\Debug\net8.0\LoggingPOC.AssemblyInfoInputs.cache
+D:\DevelopmentProjects\POCs\LoggingPOC\obj\Debug\net8.0\LoggingPOC.AssemblyInfo.cs
+D:\DevelopmentProjects\POCs\LoggingPOC\obj\Debug\net8.0\LoggingPOC.csproj.CoreCompileInputs.cache
+D:\DevelopmentProjects\POCs\LoggingPOC\obj\Debug\net8.0\LoggingPOC.MvcApplicationPartsAssemblyInfo.cs
+D:\DevelopmentProjects\POCs\LoggingPOC\obj\Debug\net8.0\LoggingPOC.MvcApplicationPartsAssemblyInfo.cache
+D:\DevelopmentProjects\POCs\LoggingPOC\obj\Debug\net8.0\LoggingPOC.sourcelink.json

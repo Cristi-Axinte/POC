@@ -1,5 +1,9 @@
+using EFCorePOC.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<BookStoreDbContext>(options => options.UseInMemoryDatabase("BookStoreDbContext"));
 // Add services to the container.
 
 builder.Services.AddControllers();
