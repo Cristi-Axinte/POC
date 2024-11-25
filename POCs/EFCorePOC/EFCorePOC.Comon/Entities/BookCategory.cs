@@ -2,10 +2,10 @@
 {
     public class BookCategory
     {
-        public int BookId { get; set; }
+        public string BookId { get; set; }
         public Book Book { get; set; }
 
-        public int CategoryId { get; set; }
+        public string CategoryId { get; set; }
         public Category Category { get; set; }
 
     }

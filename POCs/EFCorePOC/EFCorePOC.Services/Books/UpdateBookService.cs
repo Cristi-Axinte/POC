@@ -1,17 +1,20 @@
-﻿using EFCorePOC.Common.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AutoMapper;
+using EFCorePOC.Common.DTOs;
+using EFCorePOC.Common.Entities;
 
 namespace EFCorePOC.Services.Books
 {
     public class UpdateBookService : IUpdateBookService
     {
-        public Task<BookDTO> UpdateBookAsync(BookDTO bookDTO)
+        private readonly IBookRepository _bookRepository;
+        
+        private readonly IMapper _mapper;
+
+        public async Task<BookDTO> UpdateBookAsync(BookDTO bookDTO)
         {
-            throw new NotImplementedException();
+            var mappedBook = _mapper.Map<Book>(bookDTO);
+
+            return _mapper.Map<BookDTO>(await _bookRepository.UpdateBook(mappedBook)); 
         }
     }
 }

@@ -84,8 +84,23 @@ namespace EFCorePOC.Data
                 new Website { Id = "WebsiteId5", Name = "WebsiteName5", AddressUrl = "WebsiteUrl5" }
                 );
 
+            modelBuilder.Entity<BookCategory>().HasData(
+                new BookCategory { BookId = "BookId1", CategoryId = "CategoryId1" },
+                new BookCategory { BookId = "BookId2", CategoryId = "CategoryId2" },
+                new BookCategory { BookId = "BookId3", CategoryId = "CategoryId3" },
+                new BookCategory { BookId = "BookId4", CategoryId = "CategoryId4" },
+                new BookCategory { BookId = "BookId5", CategoryId = "CategoryId1" },
+                new BookCategory { BookId = "BookId1", CategoryId = "CategoryId2" },
+                new BookCategory { BookId = "BookId1", CategoryId = "CategoryId3" },
+                new BookCategory { BookId = "BookId2", CategoryId = "CategoryId5" }
+                );
+
             modelBuilder.Entity<Book>().HasData(
-                new Book { Id = "BookId1", Title = "BookTitle1", Description = "BookDescription1"}
+                new Book { Id = "BookId1", Title = "BookTitle1", Description = "BookDescription1", AuthorId = "AuthorId1", WebsiteId = "WebsiteId1" },
+                new Book { Id = "BookId2", Title = "BookTitle2", Description = "BookDescription2", AuthorId = "AuthorId2", WebsiteId = "WebsiteId2" },
+                new Book { Id = "BookId3", Title = "BookTitle3", Description = "BookDescription3", AuthorId = "AuthorId3", WebsiteId = "WebsiteId3" },
+                new Book { Id = "BookId4", Title = "BookTitle4", Description = "BookDescription4", AuthorId = "AuthorId4", WebsiteId = "WebsiteId4" },
+                new Book { Id = "BookId5", Title = "BookTitle5", Description = "BookDescription5", AuthorId = "AuthorId5", WebsiteId = "WebsiteId5" }
                 );
         }
 

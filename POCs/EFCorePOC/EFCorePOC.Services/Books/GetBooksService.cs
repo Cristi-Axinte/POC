@@ -1,12 +1,16 @@
-﻿using EFCorePOC.Common.DTOs;
+﻿using AutoMapper;
+using EFCorePOC.Common.DTOs;
 
 namespace EFCorePOC.Services.Books
 {
     public class GetBooksService : IGetBooksService
     {
-        public Task<IEnumerable<BookDTO>> GetAllBooksAsync()
+        private readonly IBookRepository _bookRepository;
+        private readonly IMapper _mapper;
+
+        public async Task<IEnumerable<BookDTO>> GetAllBooksAsync()
         {
-            throw new NotImplementedException();
+            return _mapper.Map<IEnumerable<BookDTO>>(await _bookRepository.GetBooksAsync());
         }
     }
 }
