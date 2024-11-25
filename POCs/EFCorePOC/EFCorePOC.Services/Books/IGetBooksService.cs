@@ -5,5 +5,7 @@ namespace EFCorePOC.Services.Books
     public interface IGetBooksService
     {
         public Task<IEnumerable<BookDTO>> GetAllBooksAsync();
+
+        public Task<BookDTO> GetBookByIdAsync(string id);
     }
 }
