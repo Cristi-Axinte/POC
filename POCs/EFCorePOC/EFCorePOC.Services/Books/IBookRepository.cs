@@ -12,6 +12,10 @@ namespace EFCorePOC.Services.Books
 
         public Task<IEnumerable<Book>> GetPagedBooksAsync(int pageIndex, int pageSize);
 
+        public Task<IEnumerable<Book>> SearchBookByCategoryAsync(string categoryName);
+
+        public Task<IEnumerable<KeyValuePair<string, int>>> GetBookCountByCategoryAsync();
+
         public Task<Book> UpdateBook(Book book);
 
         public Task<bool> DeleteBookAsync(string id);

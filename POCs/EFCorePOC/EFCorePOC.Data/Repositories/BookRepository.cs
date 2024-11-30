@@ -12,6 +12,7 @@ namespace EFCorePOC.Data.Repositories
         {
             _bookStoreDbContext = bookStoreDbContext;
         }
+
         public async Task<Book> CreateBookAsync(Book book)
         {
             await _bookStoreDbContext.Books.AddAsync(book);
@@ -20,6 +21,7 @@ namespace EFCorePOC.Data.Repositories
             Book? createdBook = await _bookStoreDbContext.Books
            .Include(b => b.Author)
            .Include(b => b.Website)
+           .Include(b => b.Publisher)
            .Include(b => b.BookCategories)
            .ThenInclude(bc => bc.Category)
            .FirstOrDefaultAsync(b => b.Id == book.Id);
@@ -47,6 +49,7 @@ namespace EFCorePOC.Data.Repositories
              Book? retrievedBook =  await _bookStoreDbContext.Books
             .Include(b => b.Author)
             .Include(b => b.Website)
+            .Include(b => b.Publisher)
             .Include(b => b.BookCategories)
             .ThenInclude(bc => bc.Category)
             .FirstOrDefaultAsync(b => b.Id == id);
@@ -59,6 +62,7 @@ namespace EFCorePOC.Data.Repositories
             List<Book>? retrievedBooks =  await _bookStoreDbContext.Books
             .Include(b => b.Author)
             .Include(b => b.Website)
+            .Include(b => b.Publisher)
             .Include(b => b.BookCategories)
             .ThenInclude(bc => bc.Category)
             .ToListAsync();
@@ -72,6 +76,7 @@ namespace EFCorePOC.Data.Repositories
             List<Book>? retrievedBooks = await _bookStoreDbContext.Books.
                  Include(b => b.Author)
                 .Include(b => b.Website)
+                .Include(b => b.Publisher)
                 .Include(b => b.BookCategories)
                 .ThenInclude(bc => bc.Category)
                 .Skip(pageIndex * pageSize)
@@ -79,6 +84,28 @@ namespace EFCorePOC.Data.Repositories
                 .ToListAsync();
 
             return retrievedBooks;
+        }
+
+        public async Task<IEnumerable<Book>> SearchBookByCategoryAsync(string categoryName)
+        {
+            return await _bookStoreDbContext.Books
+             .Include(b => b.Author)
+             .Include(b => b.Website)
+             .Include(b => b.Publisher)
+             .Include(b => b.BookCategories)
+             .ThenInclude(bc => bc.Category)
+             .Where(b => b.BookCategories.Any(bc => bc.Category.Name.Contains(categoryName)))
+             .OrderBy(b => b.Title) 
+             .ToListAsync();
+        }
+
+        public async Task<IEnumerable<KeyValuePair<string, int>>> GetBookCountByCategoryAsync()
+        {
+            return await _bookStoreDbContext.Books
+                .SelectMany(b => b.BookCategories) 
+                .GroupBy(bc => bc.Category.Name)  
+                .Select(g => new KeyValuePair<string, int>(g.Key, g.Count()))
+                .ToListAsync();
         }
 
         public Task<Book> UpdateBook(Book book)

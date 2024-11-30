@@ -15,6 +15,10 @@ public class Program
                 options.UseInMemoryDatabase("BookStoreDbContext"));
 
         builder.Services.AddScoped<IBookRepository, BookRepository>();
+        builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+        builder.Services.AddScoped<IWebsiteRepository, WebsiteRepository>();
+        builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+        builder.Services.AddScoped<IPublisherRepository, PublisherRepository>();
         builder.Services.AddScoped<IGetBooksService, GetBooksService>();
         builder.Services.AddScoped<IUpdateBookService, UpdateBookService>();
         builder.Services.AddScoped<IDeleteBookService, DeleteBookService>();

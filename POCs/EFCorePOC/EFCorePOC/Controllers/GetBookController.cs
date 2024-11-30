@@ -1,4 +1,5 @@
-﻿using EFCorePOC.Services.Books;
+﻿using EFCorePOC.Common.DTOs;
+using EFCorePOC.Services.Books;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EFCorePOC.Controllers
@@ -31,8 +32,23 @@ namespace EFCorePOC.Controllers
         [HttpGet("{pageIndex}/{pageSize}")]
         public async Task<IActionResult> GetBooksById(int pageIndex, int pageSize)
         {
-            var book = await _booksService.GetPagedBooksAsync(pageIndex, pageSize);
-            return Ok(book);
+            var books = await _booksService.GetPagedBooksAsync(pageIndex, pageSize);
+            return Ok(books);
         }
+
+        [HttpGet("searchByCategory")]
+        public async Task<IActionResult> SearchBookByCategory([FromQuery] string categoryName)
+        {
+            var books = await _booksService.SearchBookByCategoryAsync(categoryName);
+            return Ok(books);
+        }
+
+        [HttpGet("bookCountByCategory")]
+        public async Task<IActionResult> GetBookCountByCategory()
+        {
+            var books = await _booksService.GetBookCountByCategoryAsync();
+            return Ok(books);
+        }
+
     }
 }

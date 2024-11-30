@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SwaggerPOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3811966e7d3c7fabacfd2885a285a8cfe7e9d3ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcfca2ea41b5cdc2fa5f1e2937fdb8649afa120e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SwaggerPOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SwaggerPOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using EFCorePOC.Common.DTOs;
-using EFCorePOC.Common.Entities;
 
 namespace EFCorePOC.Services.Books
 {
@@ -25,10 +24,20 @@ namespace EFCorePOC.Services.Books
             return _mapper.Map<BookDTO>(await _bookRepository.GetBookById(id));
         }
 
-        
+        public async Task<IEnumerable<BookDTO>> SearchBookByCategoryAsync(string categoryName)
+        {
+            return _mapper.Map<IEnumerable<BookDTO>>(await _bookRepository.SearchBookByCategoryAsync(categoryName));
+        }
+
+
         public async Task<IEnumerable<BookDTO>> GetPagedBooksAsync(int pageIndex, int pageSize)
         {
             return _mapper.Map<IEnumerable<BookDTO>>(await _bookRepository.GetPagedBooksAsync(pageIndex, pageSize));
+        }
+
+        public async Task<IEnumerable<KeyValuePair<string, int>>> GetBookCountByCategoryAsync()
+        {
+            return await _bookRepository.GetBookCountByCategoryAsync();
         }
     }
 }
