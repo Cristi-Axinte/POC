@@ -2,6 +2,7 @@ using EFCorePOC.Data;
 using EFCorePOC.Data.Repositories;
 using EFCorePOC.Services.Books;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 public class Program
 {
@@ -9,7 +10,9 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        builder.Services.AddDbContext<BookStoreDbContext>(options => options.UseInMemoryDatabase("BookStoreDbContext"));
+
+        builder.Services.AddDbContext<BookStoreDbContext>(options => 
+                options.UseInMemoryDatabase("BookStoreDbContext"));
 
         builder.Services.AddScoped<IBookRepository, BookRepository>();
         builder.Services.AddScoped<IGetBooksService, GetBooksService>();
@@ -26,6 +29,12 @@ public class Program
         builder.Services.AddSwaggerGen();
 
         var app = builder.Build();
+
+        using (var scope = app.Services.CreateScope())
+        {
+            var dbContext = scope.ServiceProvider.GetRequiredService<BookStoreDbContext>();
+            dbContext.Database.EnsureCreated();
+        }
 
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())

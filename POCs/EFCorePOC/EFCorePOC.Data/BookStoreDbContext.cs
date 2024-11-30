@@ -4,9 +4,6 @@ using System.Runtime.InteropServices.Marshalling;
 
 namespace EFCorePOC.Data
 {
-    //How this db will work
-    //Basically, this will be an application, that will contain data from multiple websites, about what books are available so the user will be able to see 
-    //where he can find a specific book.
     public class BookStoreDbContext : DbContext
     {
         public BookStoreDbContext(DbContextOptions<BookStoreDbContext> options) : base(options)
@@ -96,14 +93,17 @@ namespace EFCorePOC.Data
                 );
 
             modelBuilder.Entity<Book>().HasData(
-                new Book { Id = "BookId1", Title = "BookTitle1", Description = "BookDescription1", AuthorId = "AuthorId1", WebsiteId = "WebsiteId1" },
-                new Book { Id = "BookId2", Title = "BookTitle2", Description = "BookDescription2", AuthorId = "AuthorId2", WebsiteId = "WebsiteId2" },
-                new Book { Id = "BookId3", Title = "BookTitle3", Description = "BookDescription3", AuthorId = "AuthorId3", WebsiteId = "WebsiteId3" },
-                new Book { Id = "BookId4", Title = "BookTitle4", Description = "BookDescription4", AuthorId = "AuthorId4", WebsiteId = "WebsiteId4" },
-                new Book { Id = "BookId5", Title = "BookTitle5", Description = "BookDescription5", AuthorId = "AuthorId5", WebsiteId = "WebsiteId5" }
+                new Book { Id = "BookId1", Title = "BookTitle1", Description = "BookDescription1", AuthorId = "AuthorId1", WebsiteId = "WebsiteId1", PublisherId = "PublisherId1" },
+                new Book { Id = "BookId2", Title = "BookTitle2", Description = "BookDescription2", AuthorId = "AuthorId2", WebsiteId = "WebsiteId2", PublisherId = "PublisherId2" },
+                new Book { Id = "BookId3", Title = "BookTitle3", Description = "BookDescription3", AuthorId = "AuthorId3", WebsiteId = "WebsiteId3", PublisherId = "PublisherId3" },
+                new Book { Id = "BookId4", Title = "BookTitle4", Description = "BookDescription4", AuthorId = "AuthorId4", WebsiteId = "WebsiteId4", PublisherId = "PublisherId4" },
+                new Book { Id = "BookId5", Title = "BookTitle5", Description = "BookDescription5", AuthorId = "AuthorId5", WebsiteId = "WebsiteId5", PublisherId = "PublisherId5" },
+                new Book { Id = "BookId6", Title = "BookTitle6", Description = "BookDescription6", AuthorId = "AuthorId1", WebsiteId = "WebsiteId1", PublisherId = "PublisherId1" },
+                new Book { Id = "BookId7", Title = "BookTitle7", Description = "BookDescription7", AuthorId = "AuthorId2", WebsiteId = "WebsiteId2", PublisherId = "PublisherId2" },
+                new Book { Id = "BookId8", Title = "BookTitle8", Description = "BookDescription8", AuthorId = "AuthorId3", WebsiteId = "WebsiteId3", PublisherId = "PublisherId3" },
+                new Book { Id = "BookId9", Title = "BookTitle9", Description = "BookDescription9", AuthorId = "AuthorId4", WebsiteId = "WebsiteId4", PublisherId = "PublisherId4" },
+                new Book { Id = "BookId10", Title = "BookTitle10", Description = "BookDescription10", AuthorId = "AuthorId5", WebsiteId = "WebsiteId5", PublisherId = "PublisherId5" }
                 );
         }
-
-
     }
 }

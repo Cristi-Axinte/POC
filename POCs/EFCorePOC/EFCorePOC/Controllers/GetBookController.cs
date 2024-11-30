@@ -27,5 +27,12 @@ namespace EFCorePOC.Controllers
             var book = await _booksService.GetBookByIdAsync(id);
             return Ok(book);
         }
+
+        [HttpGet("{pageIndex}/{pageSize}")]
+        public async Task<IActionResult> GetBooksById(int pageIndex, int pageSize)
+        {
+            var book = await _booksService.GetPagedBooksAsync(pageIndex, pageSize);
+            return Ok(book);
+        }
     }
 }

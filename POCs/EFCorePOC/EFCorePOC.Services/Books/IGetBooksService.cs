@@ -7,5 +7,7 @@ namespace EFCorePOC.Services.Books
         public Task<IEnumerable<BookDTO>> GetAllBooksAsync();
 
         public Task<BookDTO> GetBookByIdAsync(string id);
+
+        public Task<IEnumerable<BookDTO>> GetPagedBooksAsync(int pageIndex, int pageSize);
     }
 }

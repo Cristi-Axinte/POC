@@ -67,6 +67,20 @@ namespace EFCorePOC.Data.Repositories
 
         }
 
+        public async Task<IEnumerable<Book>> GetPagedBooksAsync(int pageIndex, int pageSize)
+        {
+            List<Book>? retrievedBooks = await _bookStoreDbContext.Books.
+                 Include(b => b.Author)
+                .Include(b => b.Website)
+                .Include(b => b.BookCategories)
+                .ThenInclude(bc => bc.Category)
+                .Skip(pageIndex * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+
+            return retrievedBooks;
+        }
+
         public Task<Book> UpdateBook(Book book)
         {
             throw new NotImplementedException();

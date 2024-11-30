@@ -9,7 +9,9 @@ namespace EFCorePOC.Services.Books
         public Task<IEnumerable<Book>> GetBooksAsync();
 
         public Task<Book> GetBookById(string id);
-        
+
+        public Task<IEnumerable<Book>> GetPagedBooksAsync(int pageIndex, int pageSize);
+
         public Task<Book> UpdateBook(Book book);
 
         public Task<bool> DeleteBookAsync(string id);

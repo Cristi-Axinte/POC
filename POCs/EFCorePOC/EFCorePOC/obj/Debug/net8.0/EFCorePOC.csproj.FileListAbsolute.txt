@@ -47,3 +47,6 @@ D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC\obj\Debug\net8.0\EFCorePOC.pdb
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC\obj\Debug\net8.0\EFCorePOC.genruntimeconfig.cache
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC\obj\Debug\net8.0\ref\EFCorePOC.dll
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC\bin\Debug\net8.0\AutoMapper.dll
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
