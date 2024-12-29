@@ -26,6 +26,7 @@ namespace EFCorePOC.Services.Books
 
         public async Task<BookDTO> CreateBookAsync(BookDTO bookDTO)
         {
+            //just a test push
             var (author, website, publisher, categories) = await GetBookRelatedEntitiesAsync(
                 bookDTO.AuthorName,
                 bookDTO.WebsiteURL,
