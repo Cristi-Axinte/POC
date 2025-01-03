@@ -131,5 +131,97 @@ namespace EFCorePOC.Data.Repositories
 
             return book;
         }
+
+        public async Task<Book> CreateBookWithTransactionAsync(Book book, string authorName, string websiteUrl, string publisherName, IEnumerable<string> categoryNames)
+        {
+            using (var transaction = await _bookStoreDbContext.Database.BeginTransactionAsync())
+            {
+                try
+                {
+                    var author = await GetOrCreateAuthorAsync(authorName);
+                    var website = await GetOrCreateWebsiteAsync(websiteUrl);
+                    var publisher = await GetOrCreatePublisherAsync(publisherName);
+                    var categories = await GetOrCreateCategoriesAsync(categoryNames);
+
+                    book.AuthorId = author.Id;
+                    book.WebsiteId = website.Id;
+                    book.PublisherId = publisher.Id;
+
+                    book.BookCategories = categories.Select(c => new BookCategory
+                    {
+                        CategoryId = c.Id
+                    }).ToList();
+
+                    await _bookStoreDbContext.Books.AddAsync(book);
+                    await _bookStoreDbContext.SaveChangesAsync();
+
+                    await transaction.CommitAsync();
+
+                    return book;
+                }
+                catch (Exception ex)
+                {
+                    await transaction.RollbackAsync();
+                    throw new Exception("Failed to create the book and its related entities", ex);
+                }
+            }
+        }
+
+        private async Task<Author> GetOrCreateAuthorAsync(string authorName)
+        {
+            var author = await _bookStoreDbContext.Authors.FirstOrDefaultAsync(a => a.Name == authorName);
+            if (author == null)
+            {
+                author = new Author { Name = authorName };
+                await _bookStoreDbContext.Authors.AddAsync(author);
+                await _bookStoreDbContext.SaveChangesAsync();
+            }
+            return author;
+        }
+
+        private async Task<Website> GetOrCreateWebsiteAsync(string websiteUrl)
+        {
+            var website = await _bookStoreDbContext.Websites.FirstOrDefaultAsync(w => w.AddressUrl == websiteUrl);
+            if (website == null)
+            {
+                website = new Website { AddressUrl = websiteUrl, Name = websiteUrl };
+                await _bookStoreDbContext.Websites.AddAsync(website);
+                await _bookStoreDbContext.SaveChangesAsync();
+            }
+            return website;
+        }
+
+        private async Task<Publisher> GetOrCreatePublisherAsync(string publisherName)
+        {
+            var publisher = await _bookStoreDbContext.Publisher.FirstOrDefaultAsync(p => p.Name == publisherName);
+            if (publisher == null)
+            {
+                publisher = new Publisher { Name = publisherName };
+                await _bookStoreDbContext.Publisher.AddAsync(publisher);
+                await _bookStoreDbContext.SaveChangesAsync();
+            }
+            return publisher;
+        }
+
+        private async Task<IEnumerable<Category>> GetOrCreateCategoriesAsync(IEnumerable<string> categoryNames)
+        {
+            var existingCategories = await _bookStoreDbContext.Categories
+                .Where(c => categoryNames.Contains(c.Name))
+                .ToListAsync();
+
+            var categoriesToCreate = categoryNames
+                .Where(name => !existingCategories.Any(c => c.Name == name))
+                .Select(name => new Category { Name = name })
+                .ToList();
+
+            if (categoriesToCreate.Any())
+            {
+                await _bookStoreDbContext.Categories.AddRangeAsync(categoriesToCreate);
+                await _bookStoreDbContext.SaveChangesAsync();
+                existingCategories.AddRange(categoriesToCreate);
+            }
+
+            return existingCategories;
+        }
     }
 }

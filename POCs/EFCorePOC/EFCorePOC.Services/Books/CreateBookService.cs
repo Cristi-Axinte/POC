@@ -48,6 +48,21 @@ namespace EFCorePOC.Services.Books
             return _mapper.Map<BookDTO>(createdBook);
         }
 
+        public async Task<BookDTO> CreateBookWithTransactionAsync(BookDTO bookDTO)
+        {
+            var mappedBook = _mapper.Map<Book>(bookDTO);
+
+            //here i could just send the DTO, but in this case, the mapping should be done on the repository layer ( is it ok to be done there? )
+            var createdBook = await _bookRepository.CreateBookWithTransactionAsync(
+                mappedBook,
+                bookDTO.AuthorName,
+                bookDTO.WebsiteURL,
+                bookDTO.PublisherName,
+                bookDTO.CategoryNames
+            );
+
+            return _mapper.Map<BookDTO>(createdBook);
+        }
 
         public async Task<(Author, Website, Publisher, IEnumerable<Category>)> GetBookRelatedEntitiesAsync(string authorName, string websiteUrl, string publisherName, IEnumerable<string> categoryNames)
         {
@@ -60,5 +75,6 @@ namespace EFCorePOC.Services.Books
 
             return (authorTask.Result, websiteTask.Result, publisher.Result, categoriesTask.Result);
         }
+
     }
 }

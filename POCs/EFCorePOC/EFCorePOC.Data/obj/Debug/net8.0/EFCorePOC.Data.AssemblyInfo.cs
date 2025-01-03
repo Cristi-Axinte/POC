@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EFCorePOC.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a027a7a027e5d1517a1e6458f1c12a0248c3a0fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fbc36bb326a7ace763a07dce79c8a764c205e14")]
 [assembly: System.Reflection.AssemblyProductAttribute("EFCorePOC.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EFCorePOC.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

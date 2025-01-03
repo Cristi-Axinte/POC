@@ -7,6 +7,8 @@ namespace EFCorePOC.Services.Books
     {
         public Task<Book> CreateBookAsync(Book book);
 
+        public Task<Book> CreateBookWithTransactionAsync(Book book, string authorName, string websiteUrl, string publisherName, IEnumerable<string> categoryNames);
+
         public Task<IEnumerable<Book>> GetBooksAsync();
 
         public Task<IEnumerable<BookDTO>> GetBooksAsDtoDirectlyAsync();

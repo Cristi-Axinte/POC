@@ -22,5 +22,15 @@ namespace EFCorePOC.Controllers.BookControllers
 
             return Ok(createdBookDto);
         }
+        
+        //This will work even if the categories that you add don`t exist currently in DB 
+        //THIS WONT WORK BECAUSE INMEMORY DB DOES NOT SUPPORT TRANSACTIONS, i will leave it here just because it was good practice
+        [HttpPost("createWithTransaction")]
+        public async Task<IActionResult> CreateBookWithTransaction([FromBody] BookDTO bookDTO)
+        {
+            BookDTO createdBookDto = await _createBookService.CreateBookWithTransactionAsync(bookDTO);
+
+            return Ok(createdBookDto);
+        }
     }
 }

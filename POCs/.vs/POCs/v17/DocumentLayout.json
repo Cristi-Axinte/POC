@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\DevelopmentProjects\\POCs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.data\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|solutionrelative:efcorepoc\\efcorepoc.data\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\books\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|solutionrelative:efcorepoc\\efcorepoc.services\\books\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\books\\createbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|solutionrelative:efcorepoc\\efcorepoc.services\\books\\createbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc\\controllers\\bookcontrollers\\createbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|solutionrelative:efcorepoc\\efcorepoc\\controllers\\bookcontrollers\\createbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\books\\icreatebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|solutionrelative:efcorepoc\\efcorepoc.services\\books\\icreatebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc\\controllers\\bookcontrollers\\getbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|solutionrelative:efcorepoc\\efcorepoc\\controllers\\bookcontrollers\\getbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.data\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|solutionrelative:efcorepoc\\efcorepoc.data\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\mappingprofiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|solutionrelative:efcorepoc\\efcorepoc.services\\mappingprofiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.data\\bookstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|solutionrelative:efcorepoc\\efcorepoc.data\\bookstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,28 +51,12 @@
       "RelativeMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|solutionrelative:efcorepoc\\efcorepoc\\controllers\\authorcontrollers\\getauthorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc\\controllers\\bookcontrollers\\createbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|solutionrelative:efcorepoc\\efcorepoc\\controllers\\bookcontrollers\\createbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.data\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|solutionrelative:efcorepoc\\efcorepoc.data\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\authors\\igetauthorsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|solutionrelative:efcorepoc\\efcorepoc.services\\authors\\igetauthorsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\books\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|solutionrelative:efcorepoc\\efcorepoc.services\\books\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\books\\createbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|solutionrelative:efcorepoc\\efcorepoc.services\\books\\createbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.data\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|solutionrelative:efcorepoc\\efcorepoc.data\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\books\\getbooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|solutionrelative:efcorepoc\\efcorepoc\\controllers\\bookcontrollers\\updatebookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc\\controllers\\bookcontrollers\\getbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|solutionrelative:efcorepoc\\efcorepoc\\controllers\\bookcontrollers\\getbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc\\controllers\\bookcontrollers\\deletebookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}|EFCorePOC\\EFCorePOC\\EFCorePOC.csproj|solutionrelative:efcorepoc\\efcorepoc\\controllers\\bookcontrollers\\deletebookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -73,14 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\books\\igetbooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|solutionrelative:efcorepoc\\efcorepoc.services\\books\\igetbooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\books\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|solutionrelative:efcorepoc\\efcorepoc.services\\books\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.data\\bookstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D}|EFCorePOC\\EFCorePOC.Data\\EFCorePOC.Data.csproj|solutionrelative:efcorepoc\\efcorepoc.data\\bookstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\books\\updatebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -125,10 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\books\\deletebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|solutionrelative:efcorepoc\\efcorepoc.services\\books\\deletebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.services\\books\\icreatebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}|EFCorePOC\\EFCorePOC.Services\\EFCorePOC.Services.csproj|solutionrelative:efcorepoc\\efcorepoc.services\\books\\icreatebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B32F114-8A37-4B24-A262-781192C0656F}|EFCorePOC\\EFCorePOC.Comon\\EFCorePOC.Common.csproj|d:\\developmentprojects\\pocs\\efcorepoc\\efcorepoc.comon\\efcorepoc.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -206,37 +206,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetAuthorsService.cs",
-              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Authors\\GetAuthorsService.cs",
-              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Authors\\GetAuthorsService.cs",
-              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Authors\\GetAuthorsService.cs",
-              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Services\\Authors\\GetAuthorsService.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAADwvw0AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T10:21:15.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AuthorRepository.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\Repositories\\AuthorRepository.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Data\\Repositories\\AuthorRepository.cs",
               "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\Repositories\\AuthorRepository.cs",
               "RelativeToolTip": "EFCorePOC\\EFCorePOC.Data\\Repositories\\AuthorRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAcAAAA1AAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T18:02:10.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Data\\Repositories\\BookRepository.cs",
+              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Data\\Repositories\\BookRepository.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAAGIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:00:06.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateBookService.cs",
+              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\CreateBookService.cs",
+              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\CreateBookService.cs",
+              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\CreateBookService.cs",
+              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Services\\Books\\CreateBookService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAqwDcAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:54:51.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\MappingProfiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\MappingProfiles\\MappingProfile.cs",
+              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\MappingProfiles\\MappingProfile.cs",
+              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Services\\MappingProfiles\\MappingProfile.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAD4vxgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:12:49.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateBookController.cs",
+              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\CreateBookController.cs",
+              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\CreateBookController.cs",
+              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\CreateBookController.cs",
+              "RelativeToolTip": "EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\CreateBookController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwB4AAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:59:56.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\IBookRepository.cs",
+              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\IBookRepository.cs",
+              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Services\\Books\\IBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:13:02.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetBookController.cs",
+              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\GetBookController.cs",
+              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\GetBookController.cs",
+              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\GetBookController.cs",
+              "RelativeToolTip": "EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\GetBookController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAASwDgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:06:39.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICreateBookService.cs",
+              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\ICreateBookService.cs",
+              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\ICreateBookService.cs",
+              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\ICreateBookService.cs",
+              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Services\\Books\\ICreateBookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:41:40.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookStoreDbContext.cs",
+              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\BookStoreDbContext.cs",
+              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Data\\BookStoreDbContext.cs",
+              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\BookStoreDbContext.cs",
+              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Data\\BookStoreDbContext.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAmwGwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:10:49.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "IAuthorRepository.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\IAuthorRepository.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\IAuthorRepository.cs",
@@ -250,58 +341,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\Repositories\\BookRepository.cs",
-              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Data\\Repositories\\BookRepository.cs",
-              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\Repositories\\BookRepository.cs",
-              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Data\\Repositories\\BookRepository.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFIAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:00:06.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateBookService.cs",
-              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\CreateBookService.cs",
-              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\CreateBookService.cs",
-              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\CreateBookService.cs",
-              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Services\\Books\\CreateBookService.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAqwDUAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:54:51.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\MappingProfiles\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\MappingProfiles\\MappingProfile.cs",
-              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\MappingProfiles\\MappingProfile.cs",
-              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Services\\MappingProfiles\\MappingProfile.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAD4vxoAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:12:49.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateBookController.cs",
-              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\CreateBookController.cs",
-              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\CreateBookController.cs",
-              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\CreateBookController.cs",
-              "RelativeToolTip": "EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\CreateBookController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T17:59:56.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Program.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC\\Program.cs",
@@ -314,7 +353,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "GetAuthorsService.cs",
+              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Authors\\GetAuthorsService.cs",
+              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Authors\\GetAuthorsService.cs",
+              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Authors\\GetAuthorsService.cs",
+              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Services\\Authors\\GetAuthorsService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvw0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:21:15.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "GetAuthorController.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Controllers\\AuthorControllers\\GetAuthorController.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC\\Controllers\\AuthorControllers\\GetAuthorController.cs",
@@ -327,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "IGetAuthorsService.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Authors\\IGetAuthorsService.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Authors\\IGetAuthorsService.cs",
@@ -340,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "GetBooksService.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\GetBooksService.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\GetBooksService.cs",
@@ -353,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "AuthorDTO.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Comon\\DTOs\\AuthorDTO.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Comon\\DTOs\\AuthorDTO.cs",
@@ -366,20 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GetBookController.cs",
-              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\GetBookController.cs",
-              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\GetBookController.cs",
-              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\GetBookController.cs",
-              "RelativeToolTip": "EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\GetBookController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAASwDgAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:06:39.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "IGetBooksService.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\IGetBooksService.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\IGetBooksService.cs",
@@ -392,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "BookDTO.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Comon\\DTOs\\BookDTO.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Comon\\DTOs\\BookDTO.cs",
@@ -405,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "DeleteBookController.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\DeleteBookController.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\DeleteBookController.cs",
@@ -418,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "UpdateBookController.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\UpdateBookController.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC\\Controllers\\BookControllers\\UpdateBookController.cs",
@@ -432,19 +471,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "BookStoreDbContext.cs",
-              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\BookStoreDbContext.cs",
-              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Data\\BookStoreDbContext.cs",
-              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\BookStoreDbContext.cs",
-              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Data\\BookStoreDbContext.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAGoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T14:10:49.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Data\\Repositories\\CategoryRepository.cs",
@@ -457,20 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\IBookRepository.cs",
-              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\IBookRepository.cs",
-              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Services\\Books\\IBookRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T17:13:02.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "UpdateBookService.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\UpdateBookService.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\UpdateBookService.cs",
@@ -483,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "BookCategory.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Comon\\Entities\\BookCategory.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Comon\\Entities\\BookCategory.cs",
@@ -495,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IWebsiteRepository.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\IWebsiteRepository.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\IWebsiteRepository.cs",
@@ -507,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "IPublisherRepository.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\IPublisherRepository.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\IPublisherRepository.cs",
@@ -519,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Comon\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Comon\\Entities\\Book.cs",
@@ -531,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "WebsiteRepository.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\Repositories\\WebsiteRepository.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Data\\Repositories\\WebsiteRepository.cs",
@@ -543,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "PublisherRepository.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Data\\Repositories\\PublisherRepository.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Data\\Repositories\\PublisherRepository.cs",
@@ -555,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "IUpdateBookService.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\IUpdateBookService.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\IUpdateBookService.cs",
@@ -567,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "DeleteBookService.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\DeleteBookService.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\DeleteBookService.cs",
@@ -579,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\ICategoryRepository.cs",
@@ -591,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Comon\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Comon\\Entities\\Category.cs",
@@ -600,18 +613,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T13:30:05.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ICreateBookService.cs",
-              "DocumentMoniker": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\ICreateBookService.cs",
-              "RelativeDocumentMoniker": "EFCorePOC\\EFCorePOC.Services\\Books\\ICreateBookService.cs",
-              "ToolTip": "D:\\DevelopmentProjects\\POCs\\EFCorePOC\\EFCorePOC.Services\\Books\\ICreateBookService.cs",
-              "RelativeToolTip": "EFCorePOC\\EFCorePOC.Services\\Books\\ICreateBookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:41:40.81Z"
             },
             {
               "$type": "Document",
