@@ -49,6 +49,26 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[3.0.3, )"
             }
           },
           "imports": [
@@ -127,6 +147,26 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[3.0.3, )"
             }
           },
           "imports": [
@@ -198,6 +238,26 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[3.0.3, )"
             }
           },
           "imports": [
