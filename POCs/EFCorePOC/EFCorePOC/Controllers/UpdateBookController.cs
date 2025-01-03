@@ -15,7 +15,7 @@ namespace EFCorePOC.Controllers
             _updateBookService = updateBookService;
         }
 
-        [HttpGet]
+        [HttpPut]
         public async Task<IActionResult> UpdateBook(BookDTO bookDTO)
         {
             var result = await _updateBookService.UpdateBookAsync(bookDTO);

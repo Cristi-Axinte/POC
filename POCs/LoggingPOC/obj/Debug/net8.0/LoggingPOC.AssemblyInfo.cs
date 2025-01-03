@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoggingPOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcfca2ea41b5cdc2fa5f1e2937fdb8649afa120e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97276eac73b1a75dfd36a83cf5f3d497eda94df2")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoggingPOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoggingPOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

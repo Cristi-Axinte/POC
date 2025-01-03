@@ -108,9 +108,12 @@ namespace EFCorePOC.Data.Repositories
                 .ToListAsync();
         }
 
-        public Task<Book> UpdateBook(Book book)
+        public async Task<Book> UpdateBook(Book book)
         {
-            throw new NotImplementedException();
+            _bookStoreDbContext.Books.Update(book);
+            await _bookStoreDbContext.SaveChangesAsync();
+
+            return book;
         }
     }
 }
