@@ -1,4 +1,5 @@
-﻿using EFCorePOC.Common.Entities;
+﻿using EFCorePOC.Common.DTOs;
+using EFCorePOC.Common.Entities;
 using EFCorePOC.Services.Books;
 using Microsoft.EntityFrameworkCore;
 
@@ -68,7 +69,22 @@ namespace EFCorePOC.Data.Repositories
             .ToListAsync();
 
             return retrievedBooks == null ? throw new Exception("Failed to retrieve book") : retrievedBooks;
+        }
 
+        public async Task<IEnumerable<BookDTO>> GetBooksAsDtoDirectlyAsync()
+        {
+            return await _bookStoreDbContext.Books
+               .Select(b => new BookDTO
+               {
+                   Id = b.Id,
+                   Title = b.Title,
+                   Description = b.Description,
+                   PublisherName = b.Publisher.Name,
+                   AuthorName = b.Author.Name,
+                   WebsiteURL = b.Website.AddressUrl,
+                   CategoryNames = b.BookCategories.Select(bc => bc.Category.Name).ToList()
+               })
+               .ToListAsync();
         }
 
         public async Task<IEnumerable<Book>> GetPagedBooksAsync(int pageIndex, int pageSize)

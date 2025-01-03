@@ -1,4 +1,5 @@
-﻿using EFCorePOC.Common.Entities;
+﻿using EFCorePOC.Common.DTOs;
+using EFCorePOC.Common.Entities;
 
 namespace EFCorePOC.Services.Books
 {
@@ -7,6 +8,8 @@ namespace EFCorePOC.Services.Books
         public Task<Book> CreateBookAsync(Book book);
 
         public Task<IEnumerable<Book>> GetBooksAsync();
+
+        public Task<IEnumerable<BookDTO>> GetBooksAsDtoDirectlyAsync();
 
         public Task<Book> GetBookById(string id);
 

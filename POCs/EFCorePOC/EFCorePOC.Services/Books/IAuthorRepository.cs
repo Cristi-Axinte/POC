@@ -1,14 +1,14 @@
-﻿using EFCorePOC.Common.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EFCorePOC.Common.DTOs;
+using EFCorePOC.Common.Entities;
 
 namespace EFCorePOC.Services.Books
 {
     public interface IAuthorRepository
     {
         public Task<Author> GetByNameAsync(string name);
+
+        public Task<IEnumerable<Author>> GetAuthorsWithBooksIncludeAsync();
+
+        public Task<IEnumerable<AuthorDTO>> GetAuthorsWithSelectAsync();
     }
 }

@@ -22,6 +22,10 @@ namespace EFCorePOC.Services.MappingProfiles
                 .ForMember(dest => dest.WebsiteId, opt => opt.Ignore())     
                 .ForMember(dest => dest.Publisher, opt => opt.Ignore())     
                 .ForMember(dest => dest.PublisherId, opt => opt.Ignore());
+
+            CreateMap<Author, AuthorDTO>()
+                .ForMember(dest => dest.AuthorName, opt => opt.MapFrom(src => src.Name))
+                .ForMember(dest => dest.BooksTitles, opt => opt.MapFrom(src => src.Books.Select(b => b.Title)));
         }
     }
 }

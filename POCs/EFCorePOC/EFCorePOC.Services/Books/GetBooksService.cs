@@ -24,6 +24,11 @@ namespace EFCorePOC.Services.Books
             return _mapper.Map<BookDTO>(await _bookRepository.GetBookById(id));
         }
 
+        public async Task<IEnumerable<BookDTO>> GetBooksDirectlyAsDTO()
+        {
+            return await _bookRepository.GetBooksAsDtoDirectlyAsync();
+        }
+
         public async Task<IEnumerable<BookDTO>> SearchBookByCategoryAsync(string categoryName)
         {
             return _mapper.Map<IEnumerable<BookDTO>>(await _bookRepository.SearchBookByCategoryAsync(categoryName));

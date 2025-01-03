@@ -1,5 +1,6 @@
 using EFCorePOC.Data;
 using EFCorePOC.Data.Repositories;
+using EFCorePOC.Services.Authors;
 using EFCorePOC.Services.Books;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -23,6 +24,7 @@ public class Program
         builder.Services.AddScoped<IUpdateBookService, UpdateBookService>();
         builder.Services.AddScoped<IDeleteBookService, DeleteBookService>();
         builder.Services.AddScoped<ICreateBookService, CreateBookService>();
+        builder.Services.AddScoped<IGetAuthorsService, GetAuthorsService>();
 
         // Add services to the container.
 

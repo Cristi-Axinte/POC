@@ -2,7 +2,7 @@
 using EFCorePOC.Services.Books;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EFCorePOC.Controllers
+namespace EFCorePOC.Controllers.BookControllers
 {
     [ApiController]
     [Route("api/[controller]")]

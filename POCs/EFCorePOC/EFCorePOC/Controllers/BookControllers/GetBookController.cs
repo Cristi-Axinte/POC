@@ -2,7 +2,7 @@
 using EFCorePOC.Services.Books;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EFCorePOC.Controllers
+namespace EFCorePOC.Controllers.BookControllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -47,6 +47,14 @@ namespace EFCorePOC.Controllers
         public async Task<IActionResult> GetBookCountByCategory()
         {
             var books = await _booksService.GetBookCountByCategoryAsync();
+            return Ok(books);
+        }
+
+
+        [HttpGet("booksDirectlyAsDTO")]
+        public async Task<IActionResult> GetBooksDirectlyAsDTO()
+        {
+            var books = await _booksService.GetBooksDirectlyAsDTO();
             return Ok(books);
         }
 

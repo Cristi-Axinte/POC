@@ -13,5 +13,7 @@ namespace EFCorePOC.Services.Books
         public Task<IEnumerable<BookDTO>> SearchBookByCategoryAsync(string categoryName);
 
         public Task<IEnumerable<KeyValuePair<string, int>>> GetBookCountByCategoryAsync();
+
+        public Task<IEnumerable<BookDTO>> GetBooksDirectlyAsDTO();
     }
 }
