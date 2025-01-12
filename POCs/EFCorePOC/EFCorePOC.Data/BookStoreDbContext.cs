@@ -1,6 +1,5 @@
 ﻿using EFCorePOC.Common.Entities;
 using Microsoft.EntityFrameworkCore;
-using System.Runtime.InteropServices.Marshalling;
 
 namespace EFCorePOC.Data
 {
@@ -8,6 +7,11 @@ namespace EFCorePOC.Data
     {
         public BookStoreDbContext(DbContextOptions<BookStoreDbContext> options) : base(options)
         {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseLazyLoadingProxies();
         }
 
         public DbSet<Author> Authors { get; set; }
@@ -29,7 +33,6 @@ namespace EFCorePOC.Data
             modelBuilder.Entity<Book>().HasOne(c => c.Publisher)
                .WithMany(b => b.Books)
                .HasForeignKey(c => c.PublisherId);
-
 
             modelBuilder.Entity<Book>().HasOne(c => c.Website)
                .WithMany(b => b.Books)
@@ -103,7 +106,7 @@ namespace EFCorePOC.Data
                 new Book { Id = "BookId8", Title = "BookTitle8", Description = "BookDescription8", AuthorId = "AuthorId3", WebsiteId = "WebsiteId3", PublisherId = "PublisherId3" },
                 new Book { Id = "BookId9", Title = "BookTitle9", Description = "BookDescription9", AuthorId = "AuthorId4", WebsiteId = "WebsiteId4", PublisherId = "PublisherId4" },
                 new Book { Id = "BookId10", Title = "BookTitle10", Description = "BookDescription10", AuthorId = "AuthorId5", WebsiteId = "WebsiteId5", PublisherId = "PublisherId5" }
-                );
+                );         
         }
     }
 }

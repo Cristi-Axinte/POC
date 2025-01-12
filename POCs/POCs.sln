@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerPOC", "SwaggerPOC\SwaggerPOC\SwaggerPOC.csproj", "{A8E2702D-60BF-407A-9825-41F235EE338E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFCorePOC", "EFCorePOC", "{A581D9A7-A889-4201-A916-EF38A7839BD1}"
+	ProjectSection(SolutionItems) = preProject
+		EFCoreNotes.md = EFCoreNotes.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCorePOC", "EFCorePOC\EFCorePOC\EFCorePOC.csproj", "{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}"
 EndProject

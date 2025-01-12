@@ -26,5 +26,8 @@ namespace EFCorePOC.Services.Books
         public Task<bool> DeleteBookAsync(string id);
 
         public Task<bool> DeleteBookAsync(Book book);
+
+        public Task<Book> GetBookByIdWithLazyLoadingAsync(string id);
+
     }
 }

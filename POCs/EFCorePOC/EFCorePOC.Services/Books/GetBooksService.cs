@@ -24,7 +24,7 @@ namespace EFCorePOC.Services.Books
             return _mapper.Map<BookDTO>(await _bookRepository.GetBookById(id));
         }
 
-        public async Task<IEnumerable<BookDTO>> GetBooksDirectlyAsDTO()
+        public async Task<IEnumerable<BookDTO>> GetBooksDirectlyAsDTOAsync()
         {
             return await _bookRepository.GetBooksAsDtoDirectlyAsync();
         }
@@ -43,6 +43,11 @@ namespace EFCorePOC.Services.Books
         public async Task<IEnumerable<KeyValuePair<string, int>>> GetBookCountByCategoryAsync()
         {
             return await _bookRepository.GetBookCountByCategoryAsync();
+        }  
+        
+        public async Task<BookDTO> GetBookByIdWithLazyLoadingAsync(string id)
+        {
+            return _mapper.Map<BookDTO>(await _bookRepository.GetBookByIdWithLazyLoadingAsync(id));
         }
     }
 }

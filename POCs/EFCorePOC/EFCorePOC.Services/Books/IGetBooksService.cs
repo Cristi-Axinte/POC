@@ -14,6 +14,9 @@ namespace EFCorePOC.Services.Books
 
         public Task<IEnumerable<KeyValuePair<string, int>>> GetBookCountByCategoryAsync();
 
-        public Task<IEnumerable<BookDTO>> GetBooksDirectlyAsDTO();
+        public Task<IEnumerable<BookDTO>> GetBooksDirectlyAsDTOAsync();
+
+        public Task<BookDTO> GetBookByIdWithLazyLoadingAsync(string id);
+
     }
 }

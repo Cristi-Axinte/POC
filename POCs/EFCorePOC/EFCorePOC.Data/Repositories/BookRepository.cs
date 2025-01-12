@@ -223,5 +223,20 @@ namespace EFCorePOC.Data.Repositories
 
             return existingCategories;
         }
+        
+        // LAZY LOADING
+        public async Task<Book> GetBookByIdWithLazyLoadingAsync(string id)
+        {
+            Book retrievedBook = await _bookStoreDbContext.Books
+                .FirstOrDefaultAsync(b => b.Id == id);
+
+            // Lazy loading happens here when you access the navigation properties
+            var author = retrievedBook?.Author;  // Author will be loaded when accessed
+            var publisher = retrievedBook?.Publisher; // Publisher will be loaded when accessed
+            var website = retrievedBook?.Website;  // Website will be loaded when accessed
+            var categories = retrievedBook?.BookCategories;  // Categories will be loaded when accessed
+
+            return retrievedBook;
+        }
     }
 }

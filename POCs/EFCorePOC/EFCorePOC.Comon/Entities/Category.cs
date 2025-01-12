@@ -6,6 +6,6 @@
 
         public string Name { get; set; }
 
-        public ICollection<BookCategory> BookCategories { get; set; }
+        public virtual ICollection<BookCategory> BookCategories { get; set; }
     }
 }

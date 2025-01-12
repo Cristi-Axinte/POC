@@ -8,16 +8,16 @@
 
         public string Description { get; set; }
 
-        public ICollection<BookCategory> BookCategories { get; set; }
+        public virtual ICollection<BookCategory> BookCategories { get; set; }
 
         public string AuthorId { get; set; }
 
-        public Author Author { get; set; }
+        public virtual Author Author { get; set; }
 
         public string PublisherId { get; set; } 
-        public Publisher Publisher { get; set; }
+        public virtual Publisher Publisher { get; set; }
 
         public string WebsiteId { get; set; }
-        public Website Website { get; set; }
+        public virtual Website Website { get; set; }
     }
 }

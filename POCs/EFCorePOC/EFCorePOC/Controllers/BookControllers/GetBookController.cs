@@ -54,8 +54,16 @@ namespace EFCorePOC.Controllers.BookControllers
         [HttpGet("booksDirectlyAsDTO")]
         public async Task<IActionResult> GetBooksDirectlyAsDTO()
         {
-            var books = await _booksService.GetBooksDirectlyAsDTO();
+            var books = await _booksService.GetBooksDirectlyAsDTOAsync();
             return Ok(books);
+        }
+
+        [HttpGet("bookWithLazyLoading")]
+        public async Task<IActionResult> GetBookByIdWithLazyLoading([FromQuery] string id)
+        { 
+            var book = await _booksService.GetBookByIdWithLazyLoadingAsync(id);
+
+            return Ok(book);
         }
 
     }

@@ -3,7 +3,6 @@ using EFCorePOC.Data.Repositories;
 using EFCorePOC.Services.Authors;
 using EFCorePOC.Services.Books;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 
 public class Program
 {
