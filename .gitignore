@@ -7,6 +7,6 @@
 /POCs/.vs/POCs/FileContentIndex
 /POCs/.vs
 
-bin/
-obj/
-.vs/
+**/bin/
+**/obj/
+**/.vs/
