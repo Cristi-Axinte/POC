@@ -8,9 +8,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerPOC", "SwaggerPOC\SwaggerPOC\SwaggerPOC.csproj", "{A8E2702D-60BF-407A-9825-41F235EE338E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFCorePOC", "EFCorePOC", "{A581D9A7-A889-4201-A916-EF38A7839BD1}"
-	ProjectSection(SolutionItems) = preProject
-		EFCoreNotes.md = EFCoreNotes.md
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCorePOC", "EFCorePOC\EFCorePOC\EFCorePOC.csproj", "{04A70EBA-BCB3-4DE0-97E8-A32AAE5B01C9}"
 EndProject
@@ -27,6 +24,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCorePOC.Common", "EFCorePOC\EFCorePOC.Comon\EFCorePOC.Common.csproj", "{0B32F114-8A37-4B24-A262-781192C0656F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCorePOC.Services", "EFCorePOC\EFCorePOC.Services\EFCorePOC.Services.csproj", "{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogsReceiver", "LogsReceiver", "{C58A62AB-2764-4765-93EB-21EDAD58AD3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsReceiver", "LogsReceiver\LogsReceiver\LogsReceiver.csproj", "{0F3B897E-150F-49CF-A209-97A07F0FA840}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +63,10 @@ Global
 		{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3B897E-150F-49CF-A209-97A07F0FA840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3B897E-150F-49CF-A209-97A07F0FA840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3B897E-150F-49CF-A209-97A07F0FA840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3B897E-150F-49CF-A209-97A07F0FA840}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +79,7 @@ Global
 		{39ED5C49-DD3B-4DF4-8B86-2FEE9B3D800D} = {A581D9A7-A889-4201-A916-EF38A7839BD1}
 		{0B32F114-8A37-4B24-A262-781192C0656F} = {A581D9A7-A889-4201-A916-EF38A7839BD1}
 		{1A90D6E0-5BE0-42DE-8EA4-62785055DAC6} = {A581D9A7-A889-4201-A916-EF38A7839BD1}
+		{0F3B897E-150F-49CF-A209-97A07F0FA840} = {C58A62AB-2764-4765-93EB-21EDAD58AD3A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95BDA699-3CDD-4B5A-AB45-3476CA3B91F0}

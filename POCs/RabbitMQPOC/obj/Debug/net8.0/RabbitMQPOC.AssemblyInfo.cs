@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RabbitMQPOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38a7ee939f523c6312373803e17e4b88c4a8123b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08dede6f021d2660281823ec956e0cec7ba4e777")]
 [assembly: System.Reflection.AssemblyProductAttribute("RabbitMQPOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RabbitMQPOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

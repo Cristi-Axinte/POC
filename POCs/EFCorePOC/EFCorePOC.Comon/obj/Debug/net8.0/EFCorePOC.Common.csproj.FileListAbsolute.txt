@@ -1,6 +1,7 @@
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\bin\Debug\net8.0\EFCorePOC.Common.deps.json
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\bin\Debug\net8.0\EFCorePOC.Common.dll
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\bin\Debug\net8.0\EFCorePOC.Common.pdb
+D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\obj\Debug\net8.0\EFCorePOC.Common.csproj.AssemblyReference.cache
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\obj\Debug\net8.0\EFCorePOC.Common.GeneratedMSBuildEditorConfig.editorconfig
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\obj\Debug\net8.0\EFCorePOC.Common.AssemblyInfoInputs.cache
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\obj\Debug\net8.0\EFCorePOC.Common.AssemblyInfo.cs
@@ -10,4 +11,3 @@ D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\obj\Debug\net8.0\EFCorePOC
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\obj\Debug\net8.0\refint\EFCorePOC.Common.dll
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\obj\Debug\net8.0\EFCorePOC.Common.pdb
 D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\obj\Debug\net8.0\ref\EFCorePOC.Common.dll
-D:\DevelopmentProjects\POCs\EFCorePOC\EFCorePOC.Comon\obj\Debug\net8.0\EFCorePOC.Common.csproj.AssemblyReference.cache
