@@ -1,6 +1,6 @@
 # This document contains important notes about Logging
 
-## General Logging Knoledge
+## General Logging Knowledge
 
 ### Why is logging good 
     Logging provides a way to monitor the application's behavior and track events for troubleshooting, debugging, and analytics.

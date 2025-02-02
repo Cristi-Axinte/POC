@@ -7,9 +7,11 @@
 /POCs/.vs/POCs/FileContentIndex
 /POCs/.vs
 
-# Ignore build output directories
-bin/
-obj/
+# Ignore all bin folders in every subdirectory
+**/bin/
+
+# Ignore obj folders as well
+**/obj/
 
 # Ignore Visual Studio related files
 .vs/
@@ -20,5 +22,7 @@ obj/
 *.pdb
 *.cache
 
+# Ignore all DLL files
+*.dll
 
 
