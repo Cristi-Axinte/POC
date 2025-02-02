@@ -7,6 +7,18 @@
 /POCs/.vs/POCs/FileContentIndex
 /POCs/.vs
 
-**/bin/
-**/obj/
-**/.vs/
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore Visual Studio related files
+.vs/
+*.suo
+*.user
+
+# Ignore debug symbols and temporary files
+*.pdb
+*.cache
+
+
+
